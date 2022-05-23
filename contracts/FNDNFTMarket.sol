@@ -112,7 +112,7 @@ contract FNDNFTMarket is
   }
 
   /**
-   * @inheritdoc NFTMarketCore
+   * @inheritdoc NFTMarketCore 
    * @dev This is a no-op function required to avoid compile errors.
    */
   function _beforeAuctionStarted(address nftContract, uint256 tokenId)
