@@ -74,7 +74,7 @@ contract FNDNFTMarket is
   NFTMarketCreators,
   SendValueWithFallbackWithdraw,
   NFTMarketFees,
-  NFTMarketAuction,
+  NFTMarketAuction, 
   NFTMarketReserveAuction,
   NFTMarketPrivateSale,
   NFTMarketBuyPrice,
