@@ -109,7 +109,7 @@ contract FNDNFTMarket is
    */
   function initialize() external initializer {
     NFTMarketAuction._initializeNFTMarketAuction();
-  }
+  } 
 
   /**
    * @inheritdoc NFTMarketCore 
