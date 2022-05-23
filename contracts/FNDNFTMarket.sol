@@ -168,6 +168,6 @@ contract FNDNFTMarket is
     override(NFTMarketCore, NFTMarketReserveAuction, NFTMarketBuyPrice)
     returns (address payable seller)
   {
-    seller = super._getSellerFor(nftContract, tokenId);
+    seller = super._getSellerFor(nftContract, tokenId); 
   }
 }
