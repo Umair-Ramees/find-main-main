@@ -60,7 +60,7 @@ import "./mixins/ERC165UpgradeableGap.sol";
 contract FNDNFT721 is
   Initializable,
   FoundationTreasuryNode,
-  ERC165UpgradeableGap,
+  ERC165UpgradeableGap, 
   ERC165,
   ERC721Upgradeable,
   NFT721Core,
